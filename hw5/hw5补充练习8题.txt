@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int a=986;
+	while (1)
+	{
+		a*=a ;
+	}
+	printf("%d", a);
+	return 0;
+}
+
+这个程序，运行后占CPU5%左右，感觉挺低的就是耗电高了点
+电脑没装Linux......
