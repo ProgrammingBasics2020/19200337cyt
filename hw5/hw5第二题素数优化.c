@@ -7,17 +7,20 @@ int main()
 
 	for (j = 2; j < sqrt(n); j++);
 	{
-		if (n <= 2)
+		if (n <= 3)
 		{
-			printf("%d是素数", n);
+			printf("%d脢脟脣脴脢媒", n);
 		}
-		if (n > 2)
-		{
-			if (n % j == 0)
-				printf("%d不是素数", n);
-			else
-				printf("%d是素数", n);
+		for (j = 2; j <= i; j++)
+	{
+		if (n % j == 0) {
+			break;
 		}
+		if (j<i) {
+			printf("%d虏禄脢脟脣脴脢媒", n);
+		}
+		else
+			printf("%d脢脟脣脴脢媒", n);
 	}
 	return 0;
 }
